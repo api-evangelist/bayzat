@@ -1,23 +1,85 @@
 aid: bayzat
+
 name: Bayzat
-description: 'Bayzat is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: Bayzat provides a cloud‑based HR, payroll, benefits and spend‑management platform for companies in the UAE, KSA and GCC. Their solution
+  automates core HR processes, payroll processing, employee benefits administration, corporate card spend, and integrates AI‑driven analytics
+  to streamline workforce management and finance operations. Serving over 4,000 enterprises, Bayzat emphasizes compliance with regional regulations
+  and offers a unified employee experience across hiring, onboarding, performance, and off‑boarding.
+
 url: https://raw.githubusercontent.com/api-evangelist/bayzat/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-27 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-27'
+
 modified: '2026-09-27'
+
 tags:
-- Company
-apis: []
+- HR
+- Payroll
+- Benefits
+- SaaS
+- GCC
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Compliance
+  url: https://www.bayzat.com/security
+- type: SecurityTxt
+  url: well-known/bayzat-help-security.txt
+- type: WellKnown
+  url: well-known/bayzat-well-known.yml
+- type: Hosts
+  url: hosts/bayzat-hosts.yml
+- type: TermsOfService
+  url: https://www.bayzat.com/terms-and-conditions
+- type: Security
+  url: https://www.bayzat.com/security
+- type: PrivacyPolicy
+  url: https://www.bayzat.com/privacy-policy
+- type: Login
+  url: https://www.bayzat.com/auth/login
+- type: GitHubOrganization
+  url: https://github.com/bayzat
+- type: TrustCenter
+  url: security/bayzat-trust-center.yml
+- type: DomainSecurity
+  url: security/bayzat-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/bayzat
+  url: https://www.bayzat.com
+- type: Blog
+  url: https://www.bayzat.com/blog
+
+apis:
+- name: Bayzat API
+  description: Bayzat provides a cloud‑based HR, payroll, benefits and spend‑management platform with an API (access gated).
+  humanURL: https://api.bayzat.com
+  aid: bayzat:bayzat-api
+
+x-coverage:
+  state: gated
+  reason: partner-login
+  detail: API spec at https://api.bayzat.com/openapi.json returns 401 Unauthorized, indicating access is gated behind authentication.
+  evidence:
+  - url: https://api.bayzat.com/openapi.json
+    status: 401
+  checked: '2026-09-27'
+x-enrichment:
+  date: '2026-09-27'
+  status: enriched
+  artifacts_added: 8
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

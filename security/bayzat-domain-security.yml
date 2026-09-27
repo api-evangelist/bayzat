@@ -1,0 +1,19 @@
+generated: '2026-09-27'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.bayzat.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct 31 10:37:10 2026 GMT
+  hsts: false
+domains:
+- domain: bayzat.com
+  dnssec: false
+  caa:
+  - 0 issue "sectigo.com"
+  - 0 issue "godaddy.com"
+  - 0 issue "letsencrypt.org"
+  spf: true
+  dmarc: true
+  dmarc_policy: reject
