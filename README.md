@@ -64,5 +64,90 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Bayzat is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/bayzat
+Bayzat provides a cloud‑based HR, payroll, benefits and spend‑management platform for companies in the UAE, KSA and GCC. Their solution automates core HR processes, payroll processing, employee benefits administration, corporate card spend, and integrates AI‑driven analytics to streamline workforce management and finance operations. Serving over 4,000 enterprises, Bayzat emphasizes compliance with regional regulations and offers a unified employee experience across hiring, onboarding, performance, and off‑boarding.
+
+**Areas:** Human Resources · Payroll · Benefits · Software-as-a-Service · GCC · Employee Benefits
+
+## Bayzat on APIs.io
+
+Everything profiled for Bayzat is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bayzat/](https://apis.io/providers/bayzat/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Bayzat API](https://apis.io/apis/bayzat/bayzat-api/) — Bayzat provides a cloud‑based HR, payroll, benefits and spend‑management platform with an API (access gated).
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Bayzat Domain Security](https://apis.io/security/bayzat/bayzat-domain-security/)
+- [Bayzat Trust Center](https://apis.io/security/bayzat/bayzat-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.bayzat.com)
+- [Blog](https://www.bayzat.com/blog/)
+- [Security](https://www.bayzat.com/security)
+- [Compliance](https://www.bayzat.com/security)
+- [Terms of service](https://www.bayzat.com/terms-and-conditions)
+- [Privacy policy](https://www.bayzat.com/privacy-policy)
+- [GitHub](https://github.com/bayzat)
+
+## API Evangelist rating
+
+**Kin Score 17.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 53.6 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 50.0 |
+
+**Agent readiness 1.8** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | documented (partial credit) |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.6** — Employment & Payroll
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bayzat/](https://apis.io/providers/bayzat/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Bayzat: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bayzat/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
